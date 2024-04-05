@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="icon" href="Images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Detection & Reporting</title>
+</head>
+<body>
+<header>
+    <nav>
+
+        <div class="navbar">
+                
+            <div class="nav-left">
+
+                <span class="menu"><i class="bi bi-list" onclick="show()"></i></span>
+
+                <a href="../index.html">Home</a>
+                <a href="detection&reporting.html"  class="active">Detection & Reporting</a>
+                <a href="news.html">News</a>
+                <a href="blogs.html">Blogs</a>
+                    
+            </div>
+           
+            <div class="nav-right">
+
+                <a href="index.html"><img src="Images/Logo.png" alt="logo"></a>
+                <a href="index.html"><p>Social Sentinel</p></a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="detection">
+
+        <div class="detection-box">
+
+
+
+            <div class="detection-head">
+
+                <p>Fake Profile Detector</p>
+
+            </div>
+
+            <div class="detection-main-box">
+
+                <div class="detect-head"><label for="useridinput">Enter User ID:</label></div>
+
+                <div class="detect-main"><input type="text" id="useridinput"></div>
+
+                <div class="detect-btn" onclick="document.querySelector('.detect-result').style.display = 'flex'; document.querySelector('.report').style.display = 'flex';"><button onclick="detect();">Detect</button></div>
+
+                <div class="detect-result"><div id="result"></div></div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="profile_attributes-box">
+
+    <div class="profile_attributes">
+
+            <div id="profile_attribute">
+
+                <img id="profilePicture" src="" alt="Profile Picture"><span id="username"></span>
+                <p>Followers Count: <span id="followersCount"></span></p>
+                <p>Posts Count: <span id="postsCount"></span></p>
+                <p>Is Verified: <span id="isVerified"></span></p>
+                <p>Account Creation Date: <span id="creationDate"></span></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="report">
+
+        <div class="report-btn">
+            
+            <form action="https://forms.gle/CihoxQhK5pdvAMqo6" target="_blank">
+
+                <button>Report</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html> 
