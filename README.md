@@ -5,10 +5,11 @@
 ## Features
 
 - **Fake Account Detection**: Utilizes advanced algorithms to analyze user behavior and flag potential fake accounts.
-- **Real-Time Monitoring**: Continuously monitors social media interactions for signs of fraudulent activity.
 - **User Reporting System**: Allows users to report suspicious accounts for further analysis.
-- **Data Visualization**: Provides graphical representations of detected fake accounts and user interactions.
 - **User-Friendly Interface**: Easy-to-navigate interface designed for seamless user experience.
+- - **Blogs/Updates**: Stay informed with the latest cybercrime news related to fake accounts:
+  - Updates and articles on recent trends, techniques, and incidents in the world of fake account fraud.
+  - Insights on how to protect yourself and your online presence from potential threats.
 
 ## Tech Stack
 
