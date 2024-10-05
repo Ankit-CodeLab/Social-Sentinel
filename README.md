@@ -18,7 +18,3 @@
 
 - **Rohit Shah**
 - **Ankit Kushwaha**
-
-## Hackathon Participation
-
-Developed for the **SSIP New India Vibrant Hackathon**, Social Sentinel aims to contribute to a safer online environment by effectively identifying and mitigating the risks posed by fake accounts.
